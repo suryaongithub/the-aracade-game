@@ -239,6 +239,7 @@ function spawnBricks ()
   brick=createSprite(Math.round(random(10,590)),-20,50,20);
   brick.velocityY=5;
   bricksGroup.add(brick);
+    brick.lifeTime=100;
   }
 }
 
